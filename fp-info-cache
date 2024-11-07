@@ -1,4 +1,4 @@
-24418799279765536
+24420528658559733
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -98867,6 +98867,13 @@ USB_A_PCB_Traces
 0
 4
 4
+diy
+microSD
+
+
+0
+13
+10
 diy
 sparkgap
 

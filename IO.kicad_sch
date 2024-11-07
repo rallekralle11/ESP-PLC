@@ -7928,7 +7928,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 163.83) (xy 92.71 170.18)
+			(xy 92.71 168.91) (xy 92.71 170.18)
 		)
 		(stroke
 			(width 0)
@@ -8538,7 +8538,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 129.54) (xy 232.41 130.81)
+			(xy 232.41 128.27) (xy 232.41 130.81)
 		)
 		(stroke
 			(width 0)
@@ -9078,16 +9078,6 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 124.46) (xy 142.24 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4a8f8a0b-eb14-45db-9d29-9325effca3bb")
-	)
-	(wire
-		(pts
 			(xy 29.21 114.3) (xy 29.21 118.11)
 		)
 		(stroke
@@ -9495,16 +9485,6 @@
 			(type default)
 		)
 		(uuid "65217fcd-acfe-4299-86ec-539da20de1df")
-	)
-	(wire
-		(pts
-			(xy 232.41 123.19) (xy 232.41 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "67b04ad2-932e-4e63-9550-10aeede36a9d")
 	)
 	(wire
 		(pts
@@ -10038,7 +10018,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 130.81) (xy 142.24 132.08)
+			(xy 142.24 129.54) (xy 142.24 132.08)
 		)
 		(stroke
 			(width 0)
@@ -10998,16 +10978,6 @@
 	)
 	(wire
 		(pts
-			(xy 275.59 124.46) (xy 275.59 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b2306bd2-835f-47d9-8ec4-f89ce6e9231c")
-	)
-	(wire
-		(pts
 			(xy 161.29 49.53) (xy 161.29 50.8)
 		)
 		(stroke
@@ -11288,7 +11258,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 123.19) (xy 186.69 124.46)
+			(xy 186.69 128.27) (xy 186.69 130.81)
 		)
 		(stroke
 			(width 0)
@@ -12058,16 +12028,6 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 129.54) (xy 186.69 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e6b61d27-bee0-4b36-a1db-11a0d5993e25")
-	)
-	(wire
-		(pts
 			(xy 92.71 179.07) (xy 92.71 180.34)
 		)
 		(stroke
@@ -12178,7 +12138,7 @@
 	)
 	(wire
 		(pts
-			(xy 275.59 130.81) (xy 275.59 132.08)
+			(xy 275.59 129.54) (xy 275.59 132.08)
 		)
 		(stroke
 			(width 0)
@@ -15533,71 +15493,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 92.71 163.83 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1bbb882b-8396-446f-9570-a91662573085")
-		(property "Reference" "#PWR028"
-			(at 92.71 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 92.71 160.274 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 92.71 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 92.71 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 92.71 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a5864f72-e06e-4019-b3a9-448b63d117e8")
-		)
-		(instances
-			(project "ESP_PLC"
-				(path "/e05cdd83-b6f3-40b7-bdec-8000ac8f3eca/cbbd0178-a965-4e29-a3eb-45f426065410"
-					(reference "#PWR028")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 137.16 151.13 270)
 		(unit 1)
@@ -15793,71 +15688,6 @@
 			(project "ESP_PLC"
 				(path "/e05cdd83-b6f3-40b7-bdec-8000ac8f3eca/cbbd0178-a965-4e29-a3eb-45f426065410"
 					(reference "#PWR095")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 92.71 179.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1f2f754d-78fa-4f0e-834f-d69ca334cbd0")
-		(property "Reference" "#PWR030"
-			(at 92.71 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 92.71 175.514 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 92.71 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 92.71 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 92.71 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "55e9646a-a536-4c1f-bedc-dfddb5b339b5")
-		)
-		(instances
-			(project "ESP_PLC"
-				(path "/e05cdd83-b6f3-40b7-bdec-8000ac8f3eca/cbbd0178-a965-4e29-a3eb-45f426065410"
-					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -17637,75 +17467,6 @@
 			(project "ESP_PLC"
 				(path "/e05cdd83-b6f3-40b7-bdec-8000ac8f3eca/cbbd0178-a965-4e29-a3eb-45f426065410"
 					(reference "J16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 275.59 128.27 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3ed87d11-8482-4a9c-a743-3b63ab262407")
-		(property "Reference" "R33"
-			(at 276.606 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~400Ω"
-			(at 276.606 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 275.59 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 275.59 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 275.59 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "219b52c7-ef94-4943-aad3-c95506695647")
-		)
-		(pin "2"
-			(uuid "abf2b99d-94a2-4ea9-8eb3-26f3dc660258")
-		)
-		(instances
-			(project "ESP_PLC"
-				(path "/e05cdd83-b6f3-40b7-bdec-8000ac8f3eca/cbbd0178-a965-4e29-a3eb-45f426065410"
-					(reference "R33")
 					(unit 1)
 				)
 			)
@@ -20402,7 +20163,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 142.24 124.46 0)
+		(at 142.24 129.54 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20410,7 +20171,7 @@
 		(dnp no)
 		(uuid "68b79fda-1092-441f-8838-3d80907a6d2b")
 		(property "Reference" "#PWR0107"
-			(at 142.24 128.27 0)
+			(at 142.24 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20419,7 +20180,7 @@
 			)
 		)
 		(property "Value" "VIN"
-			(at 142.24 120.396 0)
+			(at 142.24 125.476 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20427,7 +20188,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 142.24 124.46 0)
+			(at 142.24 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20436,7 +20197,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 142.24 124.46 0)
+			(at 142.24 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20445,7 +20206,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 142.24 124.46 0)
+			(at 142.24 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20460,6 +20221,71 @@
 			(project "ESP_PLC"
 				(path "/e05cdd83-b6f3-40b7-bdec-8000ac8f3eca/cbbd0178-a965-4e29-a3eb-45f426065410"
 					(reference "#PWR0107")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 92.71 179.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "68e1c7c7-0793-4cb7-9d48-e1d1f52c32b3")
+		(property "Reference" "#PWR030"
+			(at 92.71 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3VA"
+			(at 92.71 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 92.71 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 92.71 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "16c12d80-aee0-4a35-9149-4ad351389ca4")
+		)
+		(instances
+			(project "ESP_PLC"
+				(path "/e05cdd83-b6f3-40b7-bdec-8000ac8f3eca/cbbd0178-a965-4e29-a3eb-45f426065410"
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -20534,7 +20360,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 275.59 124.46 0)
+		(at 275.59 129.54 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20542,7 +20368,7 @@
 		(dnp no)
 		(uuid "6b694443-2b43-4445-8406-efe8588f69c4")
 		(property "Reference" "#PWR0110"
-			(at 275.59 128.27 0)
+			(at 275.59 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20551,7 +20377,7 @@
 			)
 		)
 		(property "Value" "VIN"
-			(at 278.638 122.682 0)
+			(at 278.638 127.762 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20559,7 +20385,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 275.59 124.46 0)
+			(at 275.59 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20568,7 +20394,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 275.59 124.46 0)
+			(at 275.59 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20577,7 +20403,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 275.59 124.46 0)
+			(at 275.59 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22927,75 +22753,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 186.69 127 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "900f658d-e413-4c51-ab30-fd542ffd11a1")
-		(property "Reference" "R30"
-			(at 187.706 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~400Ω"
-			(at 187.706 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 186.69 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 186.69 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 186.69 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "374dec3f-5ae2-404d-b597-f828a2f8c015")
-		)
-		(pin "2"
-			(uuid "69b05e2e-9b9c-4ee1-a840-3de3da7c5a0a")
-		)
-		(instances
-			(project "ESP_PLC"
-				(path "/e05cdd83-b6f3-40b7-bdec-8000ac8f3eca/cbbd0178-a965-4e29-a3eb-45f426065410"
-					(reference "R30")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 158.75 135.89 0)
 		(unit 1)
@@ -23873,7 +23630,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 232.41 123.19 0)
+		(at 232.41 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23881,7 +23638,7 @@
 		(dnp no)
 		(uuid "9f74c2f4-6808-4654-9c34-69d77dc5e018")
 		(property "Reference" "#PWR0109"
-			(at 232.41 127 0)
+			(at 232.41 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23890,7 +23647,7 @@
 			)
 		)
 		(property "Value" "VIN"
-			(at 235.458 121.412 0)
+			(at 235.458 126.492 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23898,7 +23655,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 232.41 123.19 0)
+			(at 232.41 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23907,7 +23664,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 232.41 123.19 0)
+			(at 232.41 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23916,7 +23673,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 232.41 123.19 0)
+			(at 232.41 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25358,75 +25115,6 @@
 			(project "ESP_PLC"
 				(path "/e05cdd83-b6f3-40b7-bdec-8000ac8f3eca/cbbd0178-a965-4e29-a3eb-45f426065410"
 					(reference "#PWR053")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 142.24 128.27 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b01051c0-31f6-493e-b972-3372dba9ceb3")
-		(property "Reference" "R31"
-			(at 143.256 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~400Ω"
-			(at 143.256 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 142.24 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 142.24 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 142.24 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "419c2e15-a068-4e11-b8eb-471723577c70")
-		)
-		(pin "2"
-			(uuid "62d95907-1dd4-48dd-a732-c74706dfa167")
-		)
-		(instances
-			(project "ESP_PLC"
-				(path "/e05cdd83-b6f3-40b7-bdec-8000ac8f3eca/cbbd0178-a965-4e29-a3eb-45f426065410"
-					(reference "R31")
 					(unit 1)
 				)
 			)
@@ -28774,7 +28462,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 186.69 123.19 0)
+		(at 186.69 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -28782,7 +28470,7 @@
 		(dnp no)
 		(uuid "eea26adf-4718-4e18-aefc-ff035aa6ca44")
 		(property "Reference" "#PWR0108"
-			(at 186.69 127 0)
+			(at 186.69 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28791,7 +28479,7 @@
 			)
 		)
 		(property "Value" "VIN"
-			(at 189.738 121.412 0)
+			(at 189.738 126.492 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28799,7 +28487,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 186.69 123.19 0)
+			(at 186.69 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28808,7 +28496,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 186.69 123.19 0)
+			(at 186.69 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28817,7 +28505,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 186.69 123.19 0)
+			(at 186.69 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29175,6 +28863,71 @@
 			(project "ESP_PLC"
 				(path "/e05cdd83-b6f3-40b7-bdec-8000ac8f3eca/cbbd0178-a965-4e29-a3eb-45f426065410"
 					(reference "C23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 92.71 168.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f92a42f8-aae2-47de-bfd1-5ee63f5fd492")
+		(property "Reference" "#PWR028"
+			(at 92.71 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3VA"
+			(at 92.71 165.354 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 92.71 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 92.71 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "97e0ec4c-0e18-46a8-b6e8-149617a9feb0")
+		)
+		(instances
+			(project "ESP_PLC"
+				(path "/e05cdd83-b6f3-40b7-bdec-8000ac8f3eca/cbbd0178-a965-4e29-a3eb-45f426065410"
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -29645,75 +29398,6 @@
 			(project "ESP_PLC"
 				(path "/e05cdd83-b6f3-40b7-bdec-8000ac8f3eca/cbbd0178-a965-4e29-a3eb-45f426065410"
 					(reference "R10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 232.41 127 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ff2aedbf-6588-4da6-868d-990642eb7ed3")
-		(property "Reference" "R32"
-			(at 233.426 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~400Ω"
-			(at 233.426 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 232.41 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 232.41 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 232.41 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b16209ed-3f1d-43e7-8061-f8e76541e8d6")
-		)
-		(pin "2"
-			(uuid "d21af199-de9f-48cf-8f25-b0f8f66cdef1")
-		)
-		(instances
-			(project "ESP_PLC"
-				(path "/e05cdd83-b6f3-40b7-bdec-8000ac8f3eca/cbbd0178-a965-4e29-a3eb-45f426065410"
-					(reference "R32")
 					(unit 1)
 				)
 			)
